@@ -40,7 +40,7 @@
       margin-left: 0;
 
       .work {
-        @include btn($color-primary-1);
+        @include btn($color-primary-8);
       }
       .blogs {
         @include btn($color-primary-7);
@@ -66,9 +66,9 @@
 
   &__brief {
     a {
-      color: $color-primary-1;
+      color: $color-primary-8;
       &:hover {
-        color: darken($color-primary-1, 15%);
+        color: darken($color-primary-8, 15%);
       }
     }
   }

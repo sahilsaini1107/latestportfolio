@@ -7,7 +7,7 @@
 
 .profiles {
   text-align: center;
-  @include mixins.anchor($color-primary-1);
+  @include mixins.anchor($color-primary-8);
 
   &__container {
     margin: auto 7%;

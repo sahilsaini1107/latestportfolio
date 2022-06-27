@@ -10,12 +10,12 @@
     align-items: center;
 
     button {
-      background: $color-primary-1;
+      background: $color-primary-8;
       border: none;
 
       &:hover,
       &:focus {
-        background: lighten($color-primary-1, 10%);
+        background: lighten($color-primary-8, 10%);
       }
     }
   }

@@ -16,7 +16,7 @@ import Resume from '../../../assets/documents/resume.pdf';
 import 'react-typist/dist/Typist.css';
 import './Hero.scss';
 
-const words = ['web developer', 'technical writer', 'oss contributor'];
+const words = ['web developer', 'web designer', 'open-source contributor'];
 
 const Hero = () => {
   const [count, setCount] = useState(1);
@@ -36,7 +36,7 @@ const Hero = () => {
                 <h1>
                   <span className="hero__content__title">
                     <span className="hero__content__title-first">I'm</span>{' '}
-                    <span className="hero__content__title-second">Rakesh</span>
+                    <span className="hero__content__title-second">Sahil Saini</span>
                   </span>
                 </h1>
                 <h2>
@@ -75,7 +75,7 @@ const Hero = () => {
                   </span>
                 </h6>
                 <div className="hero__content__main-btns">
-                  <a href="mailto:rakesh@itsrakesh.co">
+                  <a href="mailto:sohil170246@gmail.com">
                     <AnimatedButton>
                       <AiOutlineMail className="main-btn" />
                       &nbsp;Email&nbsp;Me
@@ -93,8 +93,8 @@ const Hero = () => {
             <Col sm className="hero__image">
               <img
                 id="hero-avatar"
-                src="https://ik.imagekit.io/itsrakesh/Portfolio/avatar_3PaiLNQSnTE.png?ik-sdk-version=javascript-1.4.3&updatedAt=1644134493976"
-                alt="Rakesh Potnuru"
+                src="https://ik.imagekit.io/lnqd4hvlx/sahil_5H7C9FGp77.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656337283965"
+                alt="Sahil Saini"
                 loading="eager"
               />
             </Col>

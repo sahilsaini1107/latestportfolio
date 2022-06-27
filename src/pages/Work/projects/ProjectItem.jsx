@@ -25,7 +25,7 @@ const ProjectItem = () => {
     setIsLoading(true);
     try {
       const data = await axios.get(
-        `https://raw.githubusercontent.com/RakeshPotnuru/${repoName}/${
+        `https://raw.githubusercontent.com/Sahilsaini110/${repoName}/${
           'master' || 'main'
         }/README.md`
       );
@@ -44,7 +44,7 @@ const ProjectItem = () => {
   return (
     <Fragment>
       <Helmet>
-        <title>{repoName} | itsrakesh</title>
+        <title>{repoName} | itsSahil</title>
         <meta name="description" content={`See my ${repoName} project`} />
         <meta property="og:title" content={repoName} />
         <meta
@@ -81,7 +81,7 @@ const ProjectItem = () => {
             <span style={{ color: 'red' }}>*</span> This page is the README file
             of{' '}
             <a
-              href={`https://github.com/RakeshPotnuru/${repoName}`}
+              href={`https://github.com/Sahilsaini110/${repoName}`}
               target="_blank"
               rel="noopener noreferrer"
             >

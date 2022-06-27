@@ -30,15 +30,15 @@ const AllProjects = () => {
   return (
     <Fragment>
       <Helmet>
-        <title>Projects | itsrakesh</title>
+        <title>Projects | itsSahil</title>
         <meta name="description" content="See my projects" />
-        <meta property="og:title" content="Rakesh's Projects" />
+        <meta property="og:title" content="Sahil's Projects" />
         <meta property="og:description" content="See my projects" />
         <meta
           property="og:image"
           content="https://ik.imagekit.io/itsrakesh/Portfolio/projects__og_fLEcj2Dqve4O.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646652254785"
         />
-        <meta property="twitter:title" content="Rakesh's Projects" />
+        <meta property="twitter:title" content="Sahil's Projects" />
         <meta property="twitter:description" content="See my projects" />
         <meta
           property="twitter:image"

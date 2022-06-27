@@ -6,11 +6,11 @@
 
   &__content {
     &__title-second {
-      color: $color-primary-1;
+      color: $color-primary-8;
     }
 
     .know-more {
-      @include mixins.anchor($color-primary-1);
+      @include mixins.anchor($color-primary-8);
     }
 
     &__social-icons {
@@ -24,7 +24,7 @@
       }
       .github:hover,
       .medium:hover {
-        color: #6e6e6e;
+        color: #9d9c9c;
       }
       .linkedin:hover {
         color: #0077b5;
@@ -40,9 +40,9 @@
 
     .type-writer {
       height: 100%;
-      color: $color-primary-7;
+      color: $color-secondary-3;
       .Typist .Cursor {
-        color: $color-primary-1;
+        color: $color-secondary-3;
       }
     }
 

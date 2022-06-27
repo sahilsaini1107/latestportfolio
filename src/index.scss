@@ -32,15 +32,15 @@ body {
     background-color: $color-secondary-2;
   }
 
-  @include mixins.scrollbar($color-primary-1);
+  @include mixins.scrollbar($color-primary-8);
 }
 
 ::selection {
-  background: $color-primary-1;
+  background: $color-primary-8;
   color: $text-color-light;
 }
 
 ::-moz-selection {
-  background: $color-primary-1;
+  background: $color-primary-8;
   color: $text-color-light;
 }
