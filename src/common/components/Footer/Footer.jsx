@@ -84,13 +84,10 @@ const Footer = () => {
               <Link to="/privacy-policy">Privacy Policy</Link>
             </Stack>
           </Col>
-          {/* <Col sm>
-            <Link to="/stats">Stats</Link>
-          </Col> */}
         </Row>
       </footer>
       <Stack className="copyright" direction="horizontal" gap={5}>
-        <p> &copy; {new Date().getFullYear()} itsrakesh</p>
+        <p> &copy; {new Date().getFullYear()} its Sahil Saini</p>
         <p className="ms-auto">Made with 💖 by Me!</p>
         <p>v1.0.0</p>
       </Stack>

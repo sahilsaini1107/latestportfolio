@@ -32,7 +32,7 @@ const Content = (props) => {
           <Row className="content__container">
             <Col className="content__container__image" sm={12} md={6}>
               <img
-                src="https://ik.imagekit.io/itsrakesh/Portfolio/projects-illustration_dRQbe5kVkFw.png?ik-sdk-version=javascript-1.4.3&updatedAt=1644134494977"
+                src="https://ik.imagekit.io/lnqd4hvlx/casual-life-3d-young-man-tired-from-work_W6ZjxLcxP.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656339695188"
                 alt="Projects illustration"
                 loading="lazy"
               />

@@ -14,7 +14,7 @@ const Navigation = () => {
     <nav id="navbar">
       <div className="nav__brand">
         <Link to="/">
-          <img src={Logo} alt="itsrakesh logo" />
+          <img src={Logo} alt="itsSahil logo" />
         </Link>
       </div>
       <div className="nav__btn">
@@ -32,7 +32,7 @@ const Navigation = () => {
             <li className="nav__btn__item" onClick={closeNav}>
               <NavLink
                 to="/"
-                style={({ isActive }) => ({ color: isActive && '#ff5403' })}
+                style={({ isActive }) => ({ color: isActive && '#ffcc00' })}
                 className="nav__btn__link"
               >
                 Home
@@ -41,7 +41,7 @@ const Navigation = () => {
             <li className="nav__btn__item" onClick={closeNav}>
               <NavLink
                 to="/work"
-                style={({ isActive }) => ({ color: isActive && '#ff5403' })}
+                style={({ isActive }) => ({ color: isActive && '#ffcc00' })}
                 className="nav__btn__link"
               >
                 Work
@@ -50,7 +50,7 @@ const Navigation = () => {
             <li className="nav__btn__item" onClick={closeNav}>
               <NavLink
                 to="/blogs"
-                style={({ isActive }) => ({ color: isActive && '#ff5403' })}
+                style={({ isActive }) => ({ color: isActive && '#ffcc00' })}
                 className="nav__btn__link"
               >
                 Blogs
@@ -59,7 +59,7 @@ const Navigation = () => {
             <li className="nav__btn__item" onClick={closeNav}>
               <NavLink
                 to="/about"
-                style={({ isActive }) => ({ color: isActive && '#ff5403' })}
+                style={({ isActive }) => ({ color: isActive && '#ffcc00' })}
                 className="nav__btn__link"
               >
                 About&nbsp;Me
@@ -68,7 +68,7 @@ const Navigation = () => {
             <li className="nav__btn__item" onClick={closeNav}>
               <NavLink
                 to="/contact"
-                style={({ isActive }) => ({ color: isActive && '#ff5403' })}
+                style={({ isActive }) => ({ color: isActive && '#ffcc00' })}
                 className="nav__btn__link"
               >
                 Contact
@@ -82,7 +82,7 @@ const Navigation = () => {
           <li>
             <NavLink
               to="/"
-              style={({ isActive }) => ({ color: isActive && '#ff5403' })}
+              style={({ isActive }) => ({ color: isActive && '#ffcc00' })}
             >
               Home
             </NavLink>
@@ -90,23 +90,23 @@ const Navigation = () => {
           <li>
             <NavLink
               to="/work"
-              style={({ isActive }) => ({ color: isActive && '#ff5403' })}
+              style={({ isActive }) => ({ color: isActive && '#ffcc00' })}
             >
               Work
             </NavLink>
           </li>
-          <li>
+          {/* <li>
             <NavLink
               to="/blogs"
-              style={({ isActive }) => ({ color: isActive && '#ff5403' })}
+              style={({ isActive }) => ({ color: isActive && '#ffcc00' })}
             >
               Blogs
             </NavLink>
-          </li>
+          </li> */}
           <li>
             <NavLink
               to="/about"
-              style={({ isActive }) => ({ color: isActive && '#ff5403' })}
+              style={({ isActive }) => ({ color: isActive && '#ffcc00' })}
             >
               About&nbsp;Me
             </NavLink>
@@ -114,7 +114,7 @@ const Navigation = () => {
           <li>
             <NavLink
               to="/contact"
-              style={({ isActive }) => ({ color: isActive && '#ff5403' })}
+              style={({ isActive }) => ({ color: isActive && '#ffcc00' })}
             >
               Contact
             </NavLink>

@@ -93,7 +93,7 @@ const Hero = () => {
             <Col sm className="hero__image">
               <img
                 id="hero-avatar"
-                src="https://ik.imagekit.io/lnqd4hvlx/sahil_5H7C9FGp77.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656337283965"
+                src="https://ik.imagekit.io/lnqd4hvlx/sahil.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656337100897"
                 alt="Sahil Saini"
                 loading="eager"
               />
